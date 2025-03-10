@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f5f8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1d3557;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.underline{
+    width: 6rem;
+    height: 0.25rem;
+    background-color: #156ce6;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+
+#person-img {
+    position: relative;
+    width: 150px;    /* Match the container width */
+    height: 150px;   /* Match the container height */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    display: block;  /* This ensures proper centering */
+    border: 4px solid #fff;  /* Add white border around image */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    background: #fff;
+    padding: 2.5rem 2rem;  /* Increased top padding */
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
+    text-align: center;
+    max-width: 620px;  /* Add max-width to control the review box size */
+}
+
+.review:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -4.5rem auto 1.5rem auto;  /* Negative margin to pull image up */
+}
+
